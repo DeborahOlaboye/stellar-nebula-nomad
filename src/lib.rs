@@ -4173,3 +4173,12 @@ impl NebulaNomadContract {
 // `clan_wars` is introduced here. Re-declaring them here shadowed the originals
 // and broke the crate (E0428).
 pub mod clan_wars;
+
+// Game Systems Modules (Issues #550-553)
+pub mod weather_system;
+pub mod challenge_system;
+pub mod skin_marketplace;
+pub mod mini_games {
+    pub mod poker;
+    pub mod racing;
+}
