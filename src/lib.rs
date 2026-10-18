@@ -26,7 +26,9 @@ pub use crate::nebula_explorer::{
 
 pub mod access_control;
 mod analytics;
+mod audit_integration;
 mod blueprint_factory;
+mod emergency_pause_integration;
 pub mod constants;
 mod content_tools;
 pub mod error_standard;
